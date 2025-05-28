@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alifah Septiana Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.5.1/css/all.min.css">
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <style>
+    .nav-active {
+        color: #ec4899;
+    }
+    .scrollbar-hide::-webkit-scrollbar {
+        display: none;
+    }
+    .scrollbar-hide {
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+    }
+    </style>
+</head>
+<body class="bg-pink-100 font-sans text-gray-800 text-justify">
+    <!-- Navbar -->
+     <nav class="fixed w-full top-0 left-0 bg-white shadow-md z-50">
+        <div class="flex justify-between items-center px-6 py-4">
+            <h1 class="text-2xl font-bold">ALIFAH</h1>
+            <ul class="flex space-x-4">
+                <li><a href="#hero" class="nav-link font-medium hover:text-pink-500 transition">Home</a></li>
+                <li><a href="#about" class="nav-link font-medium hover:text-pink-500 transition">About</a></li>
+                <li><a href="#skills" class="nav-link font-medium hover:text-pink-500 transition">Skills</a></li>
+                <li><a href="#service" class="nav-link font-medium hover:text-pink-500 transition">Service</a></li>
+                <li><a href="#project" class="nav-link font-medium hover:text-pink-500 transition">Project</a></li>
+                <li><a href="#testimonials" class="nav-link font-medium hover:text-pink-500 transition">Testimonials</a></li>
+                <li><a href="#contact" class="nav-link font-medium hover:text-pink-500 transition">Contact</a></li>
+            </ul>
+        </div>
+     </nav>
+
+     <!--Hero Section-->
+     <header id="hero" class="pt-32 md:pt-40 px-6 md:px-16 flex flex-col-reverse md:flex-row items-center justify-between min-h-screen bg-pink-100  mt-2">
+        <div class="animate__animated animate__backInDown md:w-1/2 space-y-6">
+            <h2 class="text-4xl font-bold animate-fade-in-up text-pink-400">HELLO!!</h2>
+            <h3 class="text-3xl font-semibold">I'm Alifah Septiana</h3>
+            <p class="text-lg">RPL student who is passionate about learning and developing in the world of coding.</p>
+            <div class="space-x-4">
+                <a href="#project" class="bg-pink-500 text-white px-4 py-2 rounded-full hover:bg-pink-600 transition">See my project</a>
+                <a href="#about" class="bg-pink-300 text-white px-4 py-2 rounded-full hover:bg-pink-400 transition">More about me</a>
+            </div>
+            <div class="flex space-x-4 pt-4">
+                <img src="https://img.icons8.com/color/48/visual-studio-code-2019.png" alt="VS Code" class="w-8 h-8">
+                <img src="https://img.icons8.com/ios-glyphs/30/github.png" alt="GitHub" class="w-8 h-8">
+                <img src="https://img.icons8.com/color/48/figma--v1.png" alt="Figma" class="w-8 h-8">
+            </div>
+        </div>
+        <div class=" animate__animated animate__backInUp md:w-1/2 flex justify-center mb-10 md:mb-0">
+            <div class="rounded-full bg-gradient-to-b from-pink-400 to-pink-100 p-2">
+                <img src="image/alifahijazah.png" alt="Alifah" class="rounded-full w-72 h-73 object-cover">
+            </div>
+        </div>
+     </header>
+ 
+     <main>
+    <!-- About Section -->
+     <section class="bg-white px-6 md:px-16 py-16" id="about">
+        <div class="animate__animated animate__bounceIn max-w-6xl mx-auto flex flex-col md:flex-row items-center md:items-start gap-12">
+            <div class="flex-shrink-0">
+                <div class="rounded-full bg-gradient-to-b from-pink-400 to-pink-100 p-2">
+                    <img src="image/alifahpramuka.png" alt="Alifah Scout" class="rounded-full w-72 h-72 object-contain">
+                </div>
+            </div>
+            <div class="space-y-4">
+                <h2 class="text-3xl font-bold flex items-center gap-2">
+                    <span>👤</span> About Me
+                </h2>
+                <h3 class="text-xl font-semibold mt-2">Who I Am</h3>
+                <p class="justtify-content">
+                    I am an active and enthusiastic student majoring in RPL. I like challenges and like to create various small projects such as websites, simple applications, and interface designs. I believe that every line of code is part of the learning and creation process.
+                </p>
+                <div class="bg-pink-200 text-gray-900 p-6 rounded-xl max-w-xl">
+                   <div class="bg-pink-300 text-gray-900 p-6 rounded-xl w-full max-w-xl">
+                    <table class="w-full text-sm md:text-base">
+                        <tr>
+                            <td class="font-semibold pr-2">Name</td>
+                            <td class="pr-4">: Alifah Septiana</td>
+                            <td class="font-semibold pr-2">School</td>
+                            <td>: SMKN 1 Tengaran</td>
+                        </tr>
+                        <tr>
+                            <td class="font-semibold pr-2">Date of birth</td>
+                            <td class="pr-4">: 11 Sept 2008</td>
+                            <td class="font-semibold pr-2">Class</td>
+                            <td>: 10</td>
+                        </tr>
+                        <tr>
+                            <td class="font-semibold pr-2">Place of birth</td>
+                            <td class="pr-4">: Kab. Semarang</td>
+                            <td class="font-semibold pr-2">Major</td>
+                            <td>: PPLG</td>
+                        </tr>
+                        <tr>
+                            <td class="font-semibold pr-2">Age</td>
+                            <td class="pr-4">: 16</td>
+                        </tr>
+                        <tr>
+                            <td class="font-semibold pr-2">Father's name</td>
+                            <td class="pr-4">: Purnomo</td>
+                        </tr>
+                        <tr>
+                            <td class="font-semibold pr-2">Mother's name</td>
+                            <td class="pr-4">: Darilah</td>
+                        </tr>
+                    </table>
+                </div>
+                </div>
+                <div class="pt-4">
+                    <a href="CV.pdf" target="_blank" class="inline-block bg-pink-500 text-white font-semibold px-6 py-2 rounded-full hover:bg-pink-600 transition">DOWNLOAD CV</a>
+                </div>
+            </div>
+        </div>
+     </section>
+
+     <section class="bg-pink-100 px-6 md:px-16 py-16">
+        <div class="max-w-6xl mx-auto">
+            <h2 class="text-3xl font-bold mb-8">✨ Why Do I Love Coding?</h2>
+            <div class="grid md:grid-cols-2 gap-6">
+                <div class="bg-white rounded-xl p-6 shadow">
+                    <h3 class="font-bold text-lg mb-2">💡 The Beginning of Interest</h3>
+                    <p>Since I first got to know the simple lines of code in the PPLG basics lesson, I immediately felt interested. The world of coding gave me a space to channel my curiosity and creativity in a real form.</p>
+                </div>
+                <div class="bg-white rounded-xl p-6 shadow">
+                    <h3 class="font-bold text-lg mb-2">💻 An Ever-Evolving World</h3>
+                    <p>Coding is dynamic and ever-evolving. There is always something new for me to learn—whether it's a programming language, a framework, or a more logical and efficient way of thinking.</p>
+                </div>
+                <div class="bg-white rounded-xl p-6 shadow">
+                    <h3 class="font-bold text-lg mb-2">🍀 Puzzle-like Challenges</h3>
+                    <p>Writing code feels like solving a puzzle. Every bug I solve is a small, satisfying victory that keeps me motivated.</p>
+                </div>
+                <div class="bg-white rounded-xl p-6 shadow">
+                    <h3 class="font-bold text-lg mb-2">🤝 Growing Through Teamwork</h3>
+                    <p>I also enjoy teamwork when creating collaborative projects. In a team, I learn about communication, task sharing, and responsibility. All of this shapes me into a person who is more prepared to face technical and social challenges.</p>
+                </div>
+                <div class="bg-white rounded-xl p-6 shadow">
+                    <h3 class="font-bold text-lg mb-2">⚙️ Creating Solutions</h3>
+                    <p>I love how coding can be used to create something useful, like a school website, a simple app, or a learning tool. For me, technology is not just a tool, but also a medium of expression and a real solution for everyday life.</p>
+                </div>
+            </div>
+            <p class="mt-8 text-center italic text-gray-700">“Every line of code is a little creation.”</p>
+        </div>
+     </section>
+
+    <!-- Skills Section -->
+     <section id="skills" class="bg-white px-6 md:px-16 py-16">
+        <div class="max-w-6xl mx-auto md:flex md:gap-12 items-start">
+            <div class="space-y-4 md:w-1/2">
+                <h2 class="text-3xl font-bold">SKILLS</h2>
+                <h3 class="text-lg font-semibold">Profesional skills</h3>
+                <p>Here are some of the key skills I have mastered in web development and interface design. The percentages indicate my skill level based on my experience and the projects I have worked on.</p>
+                <div class="space-y-4 pt-4">
+                    <div>
+                        <h4 class="font-bold text-lg">HTML <span class="float-right">90 %</span></h4>
+                        <div class="h-2 bg-pink-100 rounded-full overflow-hidden">
+                            <div class="h-full bg-pink-500 w-[90%]"></div>
+                        </div>
+                    </div>
+                    <div>
+                        <h4 class="font-bold text-lg">CSS <span class="float-right">85 %</span></h4>
+                        <div class="h-2 bg-pink-100 rounded-full overflow-hidden">
+                            <div class="h-full bg-pink-500 w-[85%]"></div>
+                        </div>
+                    </div>
+                    <div>
+                        <h4 class="font-bold text-lg">JavaScript <span class="float-right">60 %</span></h4>
+                        <div class="h-2 bg-pink-100 rounded-full overflow-hidden">
+                            <div class="h-full bg-pink-500 w-[60%]"></div>
+                        </div>
+                    </div>
+                    <div>
+                        <h4 class="font-bold text-lg">UI/UX <span class="float-right">70 %</span></h4>
+                        <div class="h-2 bg-pink-100 rounded-full overflow-hidden">
+                            <div class="h-full bg-pink-500 w-[70%]"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="md:w-1/2 mt-24 md:mt-40">
+                <img src="image/coding.jpg" alt="Coding Image" class="rounded-lg w-full object-cover">
+            </div>
+        </div>
+     </section>
+
+    <!-- Service Section -->
+     <section id="service" class="px-6 md:px-16 py-16 bg-pink-100">
+        <div class="max-w-6xl mx-auto flex flex-col md:flex-row gap-12">
+             <div class="md:w-1/2 relative">
+                 <div id="card-container" class="h-[500px] overflow-y-auto snap-y snap-mandatory space-y-6 pr-4 scroll-smooth scrollbar-hide pb-4">
+                    <div class="service-card snap-start bg-white rounded-xl p-6 shadow transition-transform duration-300 hover:scale-105 min-h-[180px]">
+                        <h3 class="text-xl font-bold mb-2">💻 Web Development</h3>
+                        <p>I create modern websites using HTML, CSS, and JavaScript with responsive UI/UX.</p>
+                    </div>
+                    <div class="service-card snap-start bg-white rounded-xl p-6 shadow transition-all duration-300 min-h-[180px]">
+                        <h3 class="text-xl font-bold mb-2">🎨 UI/UX Design</h3>
+                        <p>I design with Figma and focus on user-centered and accessible layouts.</p>
+                    </div>
+                    <div class="service-card snap-start bg-white rounded-xl p-6 shadow transition-all duration-300 min-h-[180px]">
+                        <h3 class="text-xl font-bold mb-2">🔧 Debugging</h3>
+                        <p>I enjoy solving coding errors and making sure everything works properly.</p>
+                    </div>
+                    <div class="service-card snap-start bg-white rounded-xl p-6 shadow transition-all duration-300 min-h-[180px]">
+                        <h3 class="text-xl font-bold mb-2">🤝 Collaboration</h3>
+                        <p>I often work in teams using GitHub to build and review code together.</p>
+                    </div>
+                </div>
+             </div>
+             <div class="md:w-1/2 space-y-4">
+                <h2 class="text-3xl font-bold flex items-center gap-2">🛠️ Service</h2>
+                <p class="text-xl leading-relaxed md:text-2xl md:leading-loose font-medium text-gray-700">
+                    Each card on the left represents my real-world experience in coding, design, and teamwork. Use the arrow to scroll through them!
+                </p>
+             </div>
+        </div>
+     </section>
+
+    <!-- Work Section Matching Image -->
+     <section id="project" class="bg-white px-6 md:px-16 py-16 relative">
+        <div class="max-w-6xl mx-auto">
+            <h2 class="text-3xl font-bold mb-8 flex items-center gap-2">💼 PROJECT</h2>
+            <div class="flex flex-col md:flex-row gap-12 items-start">
+                <div class="md:w-1/2 relative">
+                    <div class="text-right text-sm font-semibold text-gray-600 absolute -top-6 right-0">6</div>
+                    <div class="absolute left-0 top-0 bottom-0 w-[2px] bg-black"></div>
+                    <div id="workItems" class="space-y-4 pl-6 border-t border-b border-black">
+                        <div id="arrow" class="absolute left-[-18px] top-[0px] transition-all duration-300 text-black text-xl">&rarr;</div>
+                        <div>
+                            <button onclick="selectWork(0)" class="work-btn flex justify-between w-full text-left font-medium border-b border-black pb-1">Realme Website <span class="text-sm">Web Development</span></button>
+                        </div>
+                        <div>
+                            <button onclick="selectWork(1)" class="work-btn flex justify-between w-full text-left font-medium border-b border-black pb-1">Semester 1 Collaboration <span class="text-sm">Web Development</span></button>
+                        </div>
+                        <div>
+                            <button onclick="selectWork(2)" class="work-btn flex justify-between w-full text-left font-medium border-b border-black pb-1">Travel Website <span class="text-sm">Web Development</span></button>
+                        </div>
+                        <div>
+                            <button onclick="selectWork(3)" class="work-btn flex justify-between w-full text-left font-medium border-b border-black pb-1">Glad2Glow Website <span class="text-sm">Web Development</span></button>
+                        </div>
+                        <div>
+                            <button onclick="selectWork(4)" class="work-btn flex justify-between w-full text-left font-medium border-b border-black pb-1">Hospital Website <span class="text-sm">Web Development</span></button>
+                        </div>
+                        <div>
+                            <button onclick="selectWork(5)" class="work-btn flex justify-between w-full text-left font-medium border-b border-black pb-1">Concert Tickets <span class="text-sm">Web Development</span></button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Preview Image -->
+                 <div class="relative w-[300px] h-[200px] ml-8 overflow-hidden rounded-lg shadow-lg">
+                    <img id="projectImage" src="" alt="Project Preview" class="w-full h-full object-cover transition-opacity duration-300">
+                    <a id="projectLink" href="#" target="_blank">
+                        <div id="visitButton" class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 hover:opacity-100 transition-all duration-300">
+                            <button class="text-white bg-pink-500 px-4 py-2 rounded shadow hover:bg-pink-600 transition">Visit</button>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+     </section>
+     
+     <script>
+     const workButtons = document.querySelectorAll('.work-btn');
+     const arrow = document.getElementById('arrow');
+     const image = document.getElementById('projectImage');
+     const link = document.getElementById('projectLink');
+     
+     const works = [
+    { image: 'image/lp.jpg', link: 'file:///C:/Users/users_9emfz6q/OneDrive/Documents/semester%20dua%20al/landing%20page/index.html' },
+    { image: 'image/collab.jpg', link: 'file:///C:/Users/users_9emfz6q/OneDrive/Documents/projectkolaborasi/projectscollaboration/kolaborasi.html' },
+    { image: 'image/t1.jpg', link: 'file:///C:/Users/users_9emfz6q/OneDrive/Documents/semester%20dua%20al/tugas%201/index.html' },
+    { image: 'image/t2.jpg', link: 'file:///C:/Users/users_9emfz6q/OneDrive/Documents/semester%20dua%20al/tugas%202/index.html' },
+    { image: 'image/t3.jpg', link: 'file:///C:/Users/users_9emfz6q/OneDrive/Documents/semester%20dua%20al/tugas%203/index.html' },
+    { image: 'image/t4.jpg', link: 'file:///C:/Users/users_9emfz6q/OneDrive/Documents/semester%20dua%20al/tugas%204/index.html' },
+    ];
+
+    function selectWork(index) {
+        const btn = workButtons[index];
+        const offsetTop = btn.offsetTop;
+        arrow.style.top = offsetTop + 'px';
+
+        image.src = works[index].image;
+        link.href = works[index].link;
+    }
+
+    selectWork(0);
+    </script>
+     
+     <!-- Testimonials Section -->
+      <section id="testimonials" class="container mx-auto px-4 py-16">
+        <h2 class="text-3xl font-bold text-center mb-10">
+            <i class="fas fa-comment text-pink-500"></i> Testimonials
+        </h2>
+        <div class="relative max-w-xl mx-auto">
+            <div id="testimonialWrapper" class="overflow-hidden relative">
+                <div id="testimonialSlider" class="flex transition-transform duration-500 ease-in-out">
+                    <div class="min-w-full bg-white p-6 rounded-lg shadow-md">
+                        <img src="image/bu ul.jpg" alt="Testimonial 1" class="w-16 h-16 rounded-full mx-auto mb-4">
+                        <p class="text-gray-800 text-center">
+                            "You are quick to respond in coding practice. Keep exploring and don't hesitate to try new things outside of the material!"
+                        </p>
+                    </div>
+                    <div class="min-w-full bg-white p-6 rounded-lg shadow-md">
+                        <img src="image/bu en.jpg" alt="Testimonial 2" class="w-16 h-16 rounded-full mx-auto mb-4">
+                        <p class="text-gray-800 text-center">
+                            "You show great potential in solving problems logically. Keep it up and keep challenging yourself!"
+                        </p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="flex justify-center mt-6 space-x-2">
+                <span id="dot0" class="w-3 h-3 rounded-full bg-pink-600 cursor-pointer" onclick="showTestimonial(0)"></span>
+                <span id="dot1" class="w-3 h-3 rounded-full bg-pink-300 cursor-pointer" onclick="showTestimonial(1)"></span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+     <section id="contact" class="w-full min-h-screen bg-white flex items-center justify-center p-8">
+        <div class="max-w-6xl w-full grid md:grid-cols-2 gap-8">
+             <div class="space-y-4">
+                <div class="bg-pink-300 p-4 rounded-lg flex items-start gap-3">
+                    <span class="text-xl">📍</span>
+                    <div>
+                        <h3 class="font-bold">Company Address</h3>
+                        <p>gumukan, tegalwaton</p>
+                    </div>
+                </div>
+                <div class="bg-pink-300 p-4 rounded-lg flex items-start gap-3">
+                    <span class="text-xl">📞</span>
+                    <div>
+                        <h3 class="font-bold">Contact Us</h3>
+                        <p>+62 838 3881 8259</p>
+                    </div>
+                </div>
+                <div class="bg-pink-300 p-4 rounded-lg flex items-start gap-3">
+                    <span class="text-xl">📧</span>
+                    <div>
+                        <h3 class="font-bold">Email us</h3>
+                        <p><a href="mailto:septiana.p24010@satamail.my.id" class="underline">septiana.p24010@satamail.my.id</a></p>
+                    </div>
+                </div>
+                <div class="bg-pink-300 p-4 rounded-lg flex items-start gap-3">
+                    <span class="text-xl">⏰</span>
+                    <div>
+                        <h3 class="font-bold">Working Hours</h3>
+                        <p>monday - friday</p>
+                    </div>
+                </div>
+            </div>
+             <div class="bg-pink-300 p-6 rounded-lg space-y-4">
+                <h2 class="text-2xl font-bold">CONTACT ME</h2>
+                <p>Please contact us via the form below. We will respond as soon as possible.</p>
+                <form class="space-y-4">
+                    <div class="flex gap-4">
+                        <input type="text" placeholder="your name" class="w-full p-2 rounded border border-gray-300">
+                        <input type="email" placeholder="your email" class="w-full p-2 rounded border border-gray-300">
+                    </div>
+                    <select class="w-full p-2 rounded border border-gray-300">
+                        <option>subject</option>
+                        <option>Question</option>
+                        <option>Collaboration</option>
+                        <option>Other</option>
+                    </select>
+                    <textarea placeholder="message" class="w-full p-2 rounded border border-gray-300 h-32"></textarea>
+                    <button type="submit" class="bg-pink-100 text-pink-700 px-6 py-2 rounded font-semibold">SUBMIT</button>
+                </form>
+            </div>
+        </div>
+     </section>
+     </main>
+
+     <footer class="bg-pink-300 text-black py-10 px-6">
+         <div class="text-center mb-6">
+            <h2 class="text-2xl font-bold">Thank You For Visiting! <span>🌸</span></h2>
+            <p class="mt-3 max-w-3xl mx-auto text-center text-sm md:text-base">
+                This page was created by Alifah, a student who is on a journey to understand the world of coding.
+                Every line of code written is part of the learning process, full of curiosity and enthusiasm.
+                Thank you for being part of this journey!
+            </p>
+        </div>
+        <div class="flex justify-center gap-6 mb-6 text-2xl text-black">
+            <a href="https://www.facebook.com/share/1DemRUakSD/" target="_blank" class="hover:text-pink-500 transition-colors duration-300">
+                <i class="fab fa-facebook"></i>
+            </a>
+            <a href="https://pin.it/2CVHx0FOG" target="_blank" class="hover:text-pink-500 transition-colors duration-300">
+                <i class="fab fa-pinterest"></i>
+            </a>
+            <a href="https://www.instagram.com/aliiiipppaah?igsh=MTl6eWh6OXdmZHY4cw==" target="_blank" class="hover:text-pink-500 transition-colors duration-300">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://www.tiktok.com/@alfhsptna?_t=ZS-8wguq63qkpl&_r=1" target="_blank" class="hover:text-pink-500 transition-colors duration-300">
+                <i class="fab fa-tiktok"></i>
+            </a>
+            <a href="https://wa.me/6283838818259" target="_blank" class="hover:text-pink-500 transition-colors duration-300">
+                <i class="fab fa-whatsapp"></i>
+            </a>
+        </div>
+        <hr >
+        <div class="flex flex-col md:flex-row justify-between text-sm">
+            <p>Created with passion & code — Alifah Septiana © 2025</p>
+            <div class="flex gap-4 mt-2 md:mt-0">
+                <ul class="flex space-x-4">
+                    <li><a href="#hero" class="nav-link font-medium hover:text-pink-500 transition">Home</a></li>
+                    <li><a href="#about" class="nav-link font-medium hover:text-pink-500 transition">About</a></li>
+                    <li><a href="#skills" class="nav-link font-medium hover:text-pink-500 transition">Skills</a></li>
+                    <li><a href="#service" class="nav-link font-medium hover:text-pink-500 transition">Service</a></li>
+                    <li><a href="#project" class="nav-link font-medium hover:text-pink-500 transition">Project</a></li>
+                    <li><a href="#testimonials" class="nav-link font-medium hover:text-pink-500 transition">Testimonials</a></li>
+                    <li><a href="#contact" class="nav-link font-medium hover:text-pink-500 transition">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+ <script src="script.js"></script>   
+</body>
+</html>
